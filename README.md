@@ -1,6 +1,7 @@
 # INF3014F-React.js-Project
 
-1.1. Solution Explanation:
+**1.1. Solution Explanation:**
+
 The South African Tourism eCommerce business solution, "Explore South Africa," serves as a centralized platform connecting
 travelers with local artisans and vendors across different provinces of South Africa. Through this platform, users can browse and
 purchase authentic cultural and traditional items, ranging from handmade crafts to indigenous artworks, directly from local sellers.
@@ -10,7 +11,8 @@ of South African artisanal work, the platform celebrates the country's cultural 
 cultural exchange.
 
 
-1.2. Addressed Problems:
+**1.2. Addressed Problems:**
+
 The solution addresses several challenges faced by travelers and cultural enthusiasts in South Africa. Firstly, it overcomes the
 obstacle of limited access to authentic cultural souvenirs by providing a centralized platform where users can discover and purchase
 a wide range of locally made products from different provinces. Additionally, it addresses the issue of inflated prices from other
