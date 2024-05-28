@@ -1,0 +1,41 @@
+
+.items-container{
+    
+  padding: 10px 40px;
+
+}
+.empty-container{
+
+    padding: 200px;
+    margin: auto;
+   
+}
+.heading-empty{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+@media (max-width: 450px) {
+    .empty-container{
+  
+        padding:200px 50px;
+        
+       
+    }
+ 
+ }
+ 
+ @media (max-width:625px) {
+
+    .heading-empty{
+        font-size: 16px;
+    }
+    .empty-container{
+   
+        padding: 200px 100px;
+     
+    }
+ }

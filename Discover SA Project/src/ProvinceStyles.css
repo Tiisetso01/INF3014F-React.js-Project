@@ -1,0 +1,38 @@
+.province-container{
+ width: 100%;
+ background-color: #fff;
+}
+.pro-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.province{
+    background-color: aqua;
+    flex: 30%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    border-radius: 10px;
+}
+@media (max-width:370px) {
+    .province-container h1{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:500px) {
+    .province-container h1{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:800px) {
+    .province-container h1{
+        font-size: 20px;
+    }
+    
+}

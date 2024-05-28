@@ -1,0 +1,35 @@
+.SuccessfulPayment-container{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+}
+.centered-div{
+    width: 50%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #505551;
+
+}
+.success-img{
+    width: 200px;
+    height: 200px;
+}
+@media (max-width:800px) {
+    .centered-div{
+        width: 90%;
+        height:300px;
+    }
+    .success-img{
+        width: 150px;
+        height: 150px;
+    }
+    
+  }

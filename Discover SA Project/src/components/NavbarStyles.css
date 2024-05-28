@@ -1,0 +1,160 @@
+
+.navbar{
+  font-size: 1.2em;
+  background-color:blue;
+  padding: 2px 3px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.top-header img, .bottom-header img {
+  max-width: 160px;
+  background-color: #fff;
+ 
+}
+.top-header img, .bottom-header img {
+ margin-top: 10px;
+ 
+}
+.links_ani{
+	animation: menu-appear 0.5s ease;
+	display:flex;
+  margin-right: 3px;
+}
+.header_links{
+  
+	text-align:center;
+	text-decoration:none;
+  color: #ffffff;
+  font-weight: 400;
+	height: 20px;
+  padding: 10px 0;
+	cursor: pointer;
+	
+}
+.header_links:nth-child(2){
+  margin: 0 30px;
+}
+.top-right-corner{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0 12px;
+}
+.bottom-header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-name{
+  margin: 0 20px 0 3px;
+}
+.right-header{
+  display:flex;
+  align-items: center;
+  
+}
+
+.links_position{
+  display: flex;
+}
+.search {
+    display: flex;
+    flex:0.7;
+    margin-left: 5%;
+}
+.input-search {
+    border-radius: 3px;
+    border: 1px solid #c2baba;
+    height: 35px;
+    padding: 0  8px;
+    width: 100%;
+
+}
+.button-search {
+    background: #545bc4;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 9px 20px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+  .right-corner{
+    position: relative;
+    margin-right: 40px;
+    
+  }
+  #count-container{
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:-20px;
+    right: -16px;
+    height: 25px;
+    min-width: 25px;
+
+  }
+  #cart-count{
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  .fa-shopping-cart{
+    position: relative;
+  }
+  .fas {
+    font-size: 18px;
+   
+  }
+  .fa-heart{
+    color:red;
+    margin-right: 20px;
+  }
+  .fa-shopping-cart{
+    color:#ffffff
+  }
+
+
+
+@media (max-width: 500px) {
+   .header_links{
+    font-size: 15px;
+    
+   }
+   .header_links:nth-child(2){
+    margin: 0 15px;
+  }
+  .input-search {
+    
+    height: 30px;
+
+
+}
+.button-search {
+
+  padding: 5px 10px;
+
+}
+
+}
+
+@media (max-width:625px) {
+ .top-right-corner{
+  display: none;
+ }
+ .search{
+  flex:100%;
+  margin-right: 10%;
+}
+.top-header img {
+  max-width: 130px;
+}
+
+}
